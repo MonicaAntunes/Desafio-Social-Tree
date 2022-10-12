@@ -17,12 +17,15 @@
 .box {
  display: flex;
  justify-content: center;
+ background-color: #FAF7FD;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  justify-content: center;
+  align-items: center;
   width: 416px;
   height: 896px;
 }
@@ -47,16 +50,13 @@
   color: #BB99DD;
 }
 
-.bio {
-  display: flex;
-}
-
 .all-links {
   display: flex;
+  /* justify-content: center;
+  align-items: center; */
   flex-direction: column;
-  justify-content: space-around;
   margin-bottom: 300px;
-  align-content: center;
+  background-color: aquamarine;
 }
 
 .link-1 {
@@ -65,9 +65,10 @@
   color: #BB99DD;
   border-style: groove;
   border-color: #BB99DD;
-  margin-left: 45px;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  background-color: #FAF7FD;
+  /* margin-left: 45px;
+  margin-bottom: 50px; */
+  /* margin-top: 50px; */
   width: 326px;
   height: 49px;
   justify-content: center;
@@ -79,7 +80,8 @@
   color: #BB99DD;
   border-style: groove;
   border-color: #BB99DD;
-  margin-left: 45px;
+  background-color: #FAF7FD;
+  /* margin-left: 45px; */
   width: 326px;
   height: 49px;
   justify-content: center;
@@ -91,8 +93,9 @@
   color: #BB99DD;
   border-style: groove;
   border-color: #BB99DD;
-  margin-left: 45px;
-  margin-top: 50px;
+  background-color: #FAF7FD;
+  /* margin-left: 45px;
+  margin-top: 50px; */
   width: 326px;
   height: 49px;
   justify-content: center;
@@ -104,8 +107,9 @@
   color: #BB99DD;
   border-style: groove;
   border-color: #BB99DD;
-  margin-left: 45px;
-  margin-top: 50px;
+  background-color: #FAF7FD;
+  /* margin-left: 45px;
+  margin-top: 50px; */
   width: 326px;
   height: 49px;
   justify-content: center;
