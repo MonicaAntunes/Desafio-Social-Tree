@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: Poppins-Medium;
+  src: url("./Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Light;
+  src: url("./Poppins/Poppins-Light.ttf");
+}
+
 .box {
  display: flex;
  justify-content: center;
@@ -11,53 +21,92 @@
 
 .container {
   display: flex;
-  position: relative;
   flex-direction: column;
   justify-content: space-around;
-  background-color: antiquewhite;
-  width: 414px;
+  width: 416px;
   height: 896px;
+}
+
+.avatar-bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Poppins-Light;
+  color: #BB99DD;
 }
 
 .avatar {
   display: flex;
-  position: absolute;
-  align-items: center;
-  width: 90px;
-  height: 90px;
+  justify-content: center;
+  justify-items: center;
+  width: 130px;
+  height: 130px;
   border-radius: 100%;
   border-style: double;
   color: #BB99DD;
 }
 
+.bio {
+  display: flex;
+}
+
+.all-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 300px;
+  align-content: center;
+}
+
 .link-1 {
   display: flex;
-  width: 100px;
-  height: 20px;
-  background-color: aliceblue;
-  justify-content: left;
+  font-family: Poppins-Medium;
+  color: #BB99DD;
+  border-style: groove;
+  border-color: #BB99DD;
+  margin-left: 45px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 326px;
+  height: 49px;
+  justify-content: center;
 }
 
 .link-2 {
   display: flex;
-  width: 100px;
-  height: 20px;
-  background-color: aliceblue;
-  justify-content: left;
+  font-family: Poppins-Medium;
+  color: #BB99DD;
+  border-style: groove;
+  border-color: #BB99DD;
+  margin-left: 45px;
+  width: 326px;
+  height: 49px;
+  justify-content: center;
 }
 
 .link-3 {
   display: flex;
-  width: 100px;
-  height: 20px;
-  background-color: aliceblue;
-  justify-content: left;
+  font-family: Poppins-Medium;
+  color: #BB99DD;
+  border-style: groove;
+  border-color: #BB99DD;
+  margin-left: 45px;
+  margin-top: 50px;
+  width: 326px;
+  height: 49px;
+  justify-content: center;
 }
 
 .link-4 {
   display: flex;
-  width: 100px;
-  height: 20px;
-  background-color: aliceblue;
-  justify-content: left;
+  font-family: Poppins-Medium;
+  color: #BB99DD;
+  border-style: groove;
+  border-color: #BB99DD;
+  margin-left: 45px;
+  margin-top: 50px;
+  width: 326px;
+  height: 49px;
+  justify-content: center;
 }
