@@ -52,7 +52,7 @@
 .all-links {
   display: flex;
   flex-direction: column;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .link-1 {
@@ -113,30 +113,30 @@
 
 .icons {
   display: flex; 
-  margin-bottom: 200px;
+  margin-bottom: 300px;
 }
 
 .twitter.icon {
   display: flex;
-  margin-right: 10px;
+  margin-right: 25px;
 }
 
 .twitch-icon {
   display: flex;
-  margin-left: 10px;
+  margin-left: 25px;
 }
 
 .instagram-icon {
   display: flex;
-  margin-left: 10px;
+  margin-left: 25px;
 }
 
 .linkedin-icon {
   display: flex;
-  margin-left: 10px;
+  margin-left: 25px;
 }
 
 .github-icon {
   display: flex;
-  margin-left: 10px;
+  margin-left: 25px;
 }
