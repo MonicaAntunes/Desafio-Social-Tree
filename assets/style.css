@@ -23,7 +23,6 @@
 .container {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
   justify-content: center;
   align-items: center;
   width: 416px;
@@ -52,65 +51,91 @@
 
 .all-links {
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
   flex-direction: column;
   margin-bottom: 300px;
-  background-color: aquamarine;
 }
 
 .link-1 {
   display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: Poppins-Medium;
   color: #BB99DD;
   border-style: groove;
   border-color: #BB99DD;
   background-color: #FAF7FD;
-  /* margin-left: 45px;
-  margin-bottom: 50px; */
-  /* margin-top: 50px; */
+  margin-top: 30px;
   width: 326px;
   height: 49px;
-  justify-content: center;
 }
 
 .link-2 {
   display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: Poppins-Medium;
   color: #BB99DD;
   border-style: groove;
   border-color: #BB99DD;
   background-color: #FAF7FD;
-  /* margin-left: 45px; */
+  margin-top: 15px;
   width: 326px;
   height: 49px;
-  justify-content: center;
 }
 
 .link-3 {
   display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: Poppins-Medium;
   color: #BB99DD;
   border-style: groove;
   border-color: #BB99DD;
   background-color: #FAF7FD;
-  /* margin-left: 45px;
-  margin-top: 50px; */
+  margin-top: 15px;
   width: 326px;
   height: 49px;
-  justify-content: center;
 }
 
 .link-4 {
   display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: Poppins-Medium;
   color: #BB99DD;
   border-style: groove;
   border-color: #BB99DD;
   background-color: #FAF7FD;
-  /* margin-left: 45px;
-  margin-top: 50px; */
+  margin-top: 15px;
   width: 326px;
   height: 49px;
-  justify-content: center;
+}
+
+.icons {
+  display: flex; 
+  background-color: aquamarine;
+}
+
+.twitter.icon {
+  display: flex;
+  margin-right: 10px;
+}
+
+.twitch-icon {
+  display: flex;
+  margin-left: 10px;
+}
+
+.instagram-icon {
+  display: flex;
+  margin-left: 10px;
+}
+.linkedin-icon {
+  display: flex;
+  margin-left: 10px;
+}
+
+.github-icon {
+  display: flex;
+  margin-left: 10px;
 }
