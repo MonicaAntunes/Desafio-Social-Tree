@@ -52,7 +52,7 @@
 .all-links {
   display: flex;
   flex-direction: column;
-  margin-bottom: 300px;
+  margin-bottom: 100px;
 }
 
 .link-1 {
@@ -113,7 +113,7 @@
 
 .icons {
   display: flex; 
-  background-color: aquamarine;
+  margin-bottom: 200px;
 }
 
 .twitter.icon {
@@ -130,6 +130,7 @@
   display: flex;
   margin-left: 10px;
 }
+
 .linkedin-icon {
   display: flex;
   margin-left: 10px;
